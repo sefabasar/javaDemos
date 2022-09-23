@@ -1,3 +1,5 @@
+package secondWeek.oop1;
+
 public class Product {
 
     // classs isimleri Pascal case kullanılır.

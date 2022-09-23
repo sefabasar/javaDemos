@@ -1,3 +1,5 @@
+package firstWeek.recapDemo1;
+
 public class Main {
     public static void main(String[] args) {
       // Verilen 3 sayıdan en büyüğünü bulunuz?

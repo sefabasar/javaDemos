@@ -1,4 +1,5 @@
-import java.util.jar.JarEntry;
+package firstWeek.loopDemo;
+
 
 public class Main {
     public static void main(String[] args) {

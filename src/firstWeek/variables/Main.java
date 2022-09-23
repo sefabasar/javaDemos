@@ -1,3 +1,5 @@
+package firstWeek.variables;
+
 public class Main {
 
     // reuseability: Tekrar tekrar kullanılabilirlik. Bir kere yaz. Onu her yerde kullan. Aynı şeyi defalarca yazma!

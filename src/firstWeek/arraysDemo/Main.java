@@ -1,3 +1,5 @@
+package firstWeek.arraysDemo;
+
 public class Main {
     public static void main(String[] args) {
 
