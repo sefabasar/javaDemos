@@ -1,15 +1,15 @@
 package secondWeek.classes;
 
 public class CustomerManager {
-    public void add(){
+    public void add() {
         System.out.println("Müşteri eklendi.");
     }
 
-    public void remove(){
+    public void remove() {
         System.out.println("Müşteri silindi.");
     }
 
-    public void update(){
+    public void update() {
         System.out.println("Müşteri güncellendi.");
     }
 }

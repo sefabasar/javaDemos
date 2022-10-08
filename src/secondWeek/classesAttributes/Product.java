@@ -3,21 +3,22 @@ package secondWeek.classesAttributes;
 //  Single responsibility princible => Tek sorumluluk prensibi
 // Bir class sadece bir iş yapar! Bir method sadece bir iş yapar! Bir iş bloğu sadece bir iş yapar!
 
-import javax.swing.*;
 
 public class Product {
-    public Product(int id,String name,String description,double price, int stockAmount,String color){
+    public Product(int id, String name, String description, double price, int stockAmount, String color) {
         System.out.println("Yapıcı blok çalıştı.");
-        this.id=id;
-        this.name=name;
-        this.description=description;
-        this.price=price;
-        this.stockAmount=stockAmount;
-        this.color=color;
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.stockAmount = stockAmount;
+        this.color = color;
     }
-public Product(){
 
-}
+    public Product() {
+
+    }
+
     // attribute | field
     private int id;
     private String name;
@@ -31,6 +32,7 @@ public Product(){
     public int getId() {
         return id;
     }
+
     //setter
     public void setId(int id) {
         this.id = id;    //iki id karışmasın diye this kullanılır.
@@ -77,7 +79,7 @@ public Product(){
     }
 
     public String getCode() {
-        return this.name.substring(0,1) +id;
+        return this.name.substring(0, 1) + id;
     }
 
 }

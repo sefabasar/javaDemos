@@ -14,12 +14,12 @@ public class Main {
         int number1 = 15;
         int number2 = 20;
         number2 = number1;
-        number1 =30;
+        number1 = 30;
         System.out.println(number2); // 15 yazdırır.
 
         //
-        int [] numbers1 = new int [] {1,2,3};
-        int [] numbers2 = new int [] {4,5,6};
+        int[] numbers1 = new int[]{1, 2, 3};
+        int[] numbers2 = new int[]{4, 5, 6};
         numbers2 = numbers1;
         numbers1[0] = 10;
         System.out.println(numbers2[0]);  // 10 yazdırır.
@@ -37,11 +37,11 @@ public class Main {
 
     //pass by value
     private static void changeNumber2(int[] numbersDiamond) {
-        numbersDiamond = new int[]{9,8,7};
+        numbersDiamond = new int[]{9, 8, 7};
         System.out.println(numbersDiamond[0]);
     }
 
-    static private void changeNumber(int[] a){
+    static private void changeNumber(int[] a) {
         a[0] = 30;
         System.out.println(a[0]);
     }

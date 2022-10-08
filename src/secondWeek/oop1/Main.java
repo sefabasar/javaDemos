@@ -4,14 +4,14 @@ public class Main {
     public static void main(String[] args) {
 
         Product product1 = new Product();
-                // set value
+        // set value
         product1.setName("Delonghi Kahve Makinesi");
         product1.setUnitPrice(7500);
         product1.setDiscount(7);
         product1.setUnitsInStock(3);
         product1.setImageUrl("bilmemne.img");
 
-                // get
+        // get
         //System.out.println(product1.name);
         Product product2 = new Product();
         // set value
@@ -30,10 +30,10 @@ public class Main {
         product3.setUnitsInStock(4);
         product3.setImageUrl("bilmemne3.img");
 
-        Product [] products = {product1,product2,product3};
+        Product[] products = {product1, product2, product3};
         System.out.println("<ul>");
-        for (Product product: products) {
-            System.out.println("<li>"+product.getName()+"</li>");
+        for (Product product : products) {
+            System.out.println("<li>" + product.getName() + "</li>");
 
         }
         System.out.println("</ul>");
@@ -52,7 +52,7 @@ public class Main {
         corporateCustomer.setTaxNumber("111111111");
         corporateCustomer.setCustomerNumber("54321");
 
-        Customer[] customers = {individualCustomer,corporateCustomer};
+        Customer[] customers = {individualCustomer, corporateCustomer};
 
         //polimorfik yapıları güçlendirerek gidilecek.
     }

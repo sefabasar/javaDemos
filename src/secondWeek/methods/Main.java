@@ -20,12 +20,13 @@ public class Main {
             }
         }
         if (sonuc)
-            sendMessage("Sayı mevcuttur. Sayı: "+aranacak);
+            sendMessage("Sayı mevcuttur. Sayı: " + aranacak);
         else
             sendMessage("Sayı mevcut değildir. Sayı: " + aranacak);
 
 
     }
+
     // parametreli method.
     public static void sendMessage(String message) {
         System.out.println(message);
